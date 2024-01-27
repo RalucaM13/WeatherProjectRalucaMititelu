@@ -1,0 +1,84 @@
+body {
+  font-family: "Oswald", sans-serif;
+  background: radial-gradient(rgb(96, 85, 194), rgb(249, 239, 220));
+}
+a {
+  color: rgb(96, 85, 194);
+}
+header {
+  border-bottom: 1px solid rgb(255, 213, 198);
+  padding-bottom: 25px;
+}
+
+main {
+  padding: 30px 0;
+}
+footer {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.5);
+  border-top: 1px solid rgb(255, 213, 198);
+  padding-top: 15px;
+}
+
+.weather-app {
+  background: rgb(247, 224, 214);
+  margin: 60px auto;
+  padding: 30px;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.8);
+}
+.search-input {
+  background-color: rgba(96, 85, 194, 0.5);
+  border: none;
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.8);
+}
+.search-button {
+  width: 18%;
+  background-color: rgb(96, 85, 194);
+  color: rgb(248, 230, 222);
+  font-size: 16px;
+  margin-left: 5px;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.8);
+  line-height: 1;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+.current-temperature-icon {
+  position: relative;
+  top: -5px;
+  font-size: 45px;
+  margin-right: 1px;
+}
+.current-temperature-value {
+  font-size: 75px;
+  font-weight: bold;
+}
+.current-temperature-unit {
+  font-size: 25px;
+  position: relative;
+  top: -40px;
+}
+.current-city {
+  font-size: 55px;
+  font-weight: 900;
+  margin: 0;
+}
+.current-details {
+  color: rgba(39, 33, 66, 0.5);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.current-details strong {
+  color: #f65282;
+}
